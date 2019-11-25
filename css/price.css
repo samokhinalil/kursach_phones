@@ -37,3 +37,24 @@ p {
     text-align: center;
     font-size: 1.2em;
 }
+
+@media (max-width: 768px) {
+    table {
+        width:100%;
+        font-size: 0.9em;
+    }
+    table tr th {
+        padding: 0;
+    }
+    
+    table tr td {
+        padding: 0;
+    }
+    p{
+        font-size: 1em;
+    }
+    h1 {
+        font-size: 1.1em;
+        margin: 5px !important;
+    }
+}

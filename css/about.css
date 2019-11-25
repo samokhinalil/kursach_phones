@@ -26,3 +26,15 @@ p {
     margin: 50px;
     color: #dd0a5b;
 }
+
+@media (max-width: 768px) {
+    h1, h3, p, .note {
+        font-size: 1em;
+        margin: 5px;
+        padding: 0;
+    }
+    .photo{
+        margin:5px;
+        font-size: 0.8em;
+    }
+}

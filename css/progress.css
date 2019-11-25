@@ -1,11 +1,11 @@
-span{
-    margin-left:70px;
+span {
+    margin-left: 70px;
 }
 
 .container {
     text-align: center;
     width: 40%;
-    margin:30px auto 70px auto;
+    margin: 30px auto 70px auto;
 }
 
 .progress {
@@ -68,5 +68,23 @@ span{
     }
     to {
         width: 87%
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.1em;
+        margin: 5px;
+        padding: 0;
+    }
+    span {
+        margin-left:5px;
+    }
+    .container {
+        width: 90%;
+        margin:10px 0 10px 10px;
+    }
+    .progress-bar {
+        height: 10px;
     }
 }

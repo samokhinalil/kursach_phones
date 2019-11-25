@@ -11,7 +11,7 @@
     overflow: hidden;
 }
 
-.post img {
+img {
     width: 25%;
     height: auto;
     margin: 10px;
@@ -24,4 +24,28 @@ h3 {
     color: #00bf80;
     font-size: 2em;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .post {
+        width: 100%;
+    }
+    img {
+        margin: 5px;
+    }
+    p {
+        font-size: 1em;
+    }
+    h1 {
+        font-size: 1.1em;
+        margin: 5px;
+    }
+    h2 {
+        font-size: 1em;
+        margin: 0;
+    }
+    h3{
+        font-size: 1.5em;
+        margin:0;
+    }
 }

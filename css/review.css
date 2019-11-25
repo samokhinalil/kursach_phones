@@ -70,16 +70,42 @@
 
 .like, .dislike {
     border-right: 1px solid black;
-    padding-right:5px;
-    padding-left:5px;
+    padding-right: 5px;
+    padding-left: 5px;
     cursor: pointer;
 }
 
-.like:hover, .dislike:hover{
+.like:hover, .dislike:hover {
     background-color: rgb(184, 183, 183);
 }
 
-.like-count,.dislike-count {
-    padding-right:5px;
-    padding-left:5px;
+.like-count, .dislike-count {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+@media (max-width: 768px) {
+    .comment {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .comment-avatar {
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+    }
+    .comment-author {
+        margin: 5px;
+    }
+    .comment-date {
+        margin-left: 5px;
+    }
+    .rating-result span {
+        font-size: 0.9em;
+    }
+    h1 {
+        font-size: 1.1em;
+        margin: 5px;
+        padding: 0;
+    }
 }
