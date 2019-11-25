@@ -1,8 +1,9 @@
-img {
+.photo {
     width: 20%;
     height: auto;
     float: left;
     margin: 20px;
+    font-size:1.2em;
 }
 
 h1 {
@@ -10,6 +11,7 @@ h1 {
 }
 
 h3 {
+    padding-top:20px;
     margin: 20px;
     color: #00bf80;
 }
