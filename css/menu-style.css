@@ -37,3 +37,31 @@ h1 {
     color: white;
     text-decoration: none;
 }
+
+footer {
+    background-color: #474747;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer img {
+    width: 40px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.city {
+    float: left;
+    margin-left: 50px;
+}
+
+.contacts {
+    float: right;
+    margin-right: 50px;
+}
