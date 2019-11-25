@@ -10,6 +10,7 @@
     background-color: bisque;
     box-shadow: 0 10px 20px #474747, 0 -2px 6px #c0c0c0;
     overflow: hidden;
+    padding-bottom: 20px;
 }
 
 .comment-avatar {
@@ -33,23 +34,13 @@
 }
 
 .comment-date {
-    margin: 10px;
+    margin: 10px 0 10px 20px;
+    font-size: 0.9em;
+    font-weight: bold;
 }
 
 .comment-text {
     padding: 10px;
-}
-
-.like {
-    color: #00bf80;
-    font-weight: bold;
-    margin: 20px;
-}
-
-.dislike {
-    color: #d33636;
-    font-weight: bold;
-    margin: 20px;
 }
 
 .rating-result span {
@@ -65,4 +56,30 @@
 
 .rating-result>span.active {
     color: #f83e6d;
+}
+
+.all {
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(216, 216, 216);
+    color: black;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.like, .dislike {
+    border-right: 1px solid black;
+    padding-right:5px;
+    padding-left:5px;
+    cursor: pointer;
+}
+
+.like:hover, .dislike:hover{
+    background-color: rgb(184, 183, 183);
+}
+
+.like-count,.dislike-count {
+    padding-right:5px;
+    padding-left:5px;
 }
