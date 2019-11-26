@@ -31,7 +31,7 @@ p {
     padding-right: 30px;
 }
 
-h2 {
+h2, h4 {
     color: #00bf80;
     font-size: 1.7em;
     text-align: center;
@@ -41,10 +41,11 @@ h3 {
     padding-left: 20px;
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width:481px) and (max-width:768px) {
     .post {
         width: 100%;
-        margin-bottom: 0;
+        margin-bottom: 20px;
+        border-radius: 0;
     }
     img {
         margin: 5px;
@@ -52,7 +53,7 @@ h3 {
     p {
         font-size: 0.9em;
         margin: 0;
-        padding:5px;
+        padding: 5px;
     }
     h1 {
         font-size: 1.1em;
@@ -66,5 +67,40 @@ h3 {
     h3 {
         font-size: 1em;
         margin: 0;
+    }
+    h4 {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .post {
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 0;
+    }
+    img {
+        margin: 5px;
+    }
+    p {
+        font-size: 0.9em;
+        margin: 0;
+        padding: 5px;
+    }
+    h1 {
+        font-size: 1.1em;
+        margin: 5px;
+        padding: 0;
+    }
+    h2 {
+        font-size: 1em;
+        margin: 0;
+    }
+    h3 {
+        font-size: 1em;
+        margin: 0;
+    }
+    h4 {
+        display: none;
     }
 }

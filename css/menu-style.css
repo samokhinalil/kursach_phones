@@ -70,7 +70,24 @@ footer img {
     float: right;
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width:481px) and (max-width:768px) {
+    body {
+        font-size: 0.9em;
+    }
+    .main-menu {
+        position: relative;
+    }
+    .main-menu li {
+        width: 100%;
+        text-align: center;
+        padding: 7px 0 7px 0;
+    }
+    footer {
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 480px) {
     body {
         font-size: 0.8em;
     }
@@ -80,7 +97,7 @@ footer img {
     .main-menu li {
         width: 100%;
         text-align: center;
-        padding: 5px 0 5px 0;
+        padding: 8px 0 8px 0;
     }
     footer {
         padding: 0 !important;

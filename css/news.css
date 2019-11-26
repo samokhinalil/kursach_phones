@@ -8,7 +8,6 @@ h1 {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
     height: auto;
     color: #252525;
     font-size: 1.1em;
@@ -18,13 +17,17 @@ h1 {
     overflow: hidden;
 }
 
-img {
-    width: 30%;
+.post img {
+    width: 35%;
     height: auto;
     margin: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     border-radius: 4px;
     float: left;
+}
+
+.post-r img{
+    float: right;
 }
 
 .post h2 {
@@ -35,18 +38,25 @@ img {
 .post p {
     padding: 10px;
     padding-right: 30px;
+    margin-left: 20px;
+}
+
+.post-date{
+    font-weight: bold;
 }
 
 h3 {
     color: #00bf80;
     font-size: 2em;
     text-align: center;
+    margin:20px;
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width:481px) and (max-width:768px) {
     .post {
         width: 100%;
         margin-bottom: 0;
+        border-radius: 0;
     }
     img {
         margin: 5px;
@@ -66,6 +76,33 @@ h3 {
     }
     h3 {
         font-size: 1.5em;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .post {
+        width: 100%;
+        margin-bottom: 15px;
+        border-radius: 0;
+    }
+    img {
+        margin: 5px;
+    }
+    p {
+        font-size: 0.9em;
         margin: 0;
+    }
+    h1 {
+        font-size: 1.1em;
+        margin: 5px;
+        padding: 0;
+    }
+    h2 {
+        font-size: 1em;
+        margin: 0;
+    }
+    h3 {
+        display: none;
     }
 }
